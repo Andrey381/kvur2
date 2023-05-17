@@ -8,7 +8,7 @@ while baddata:
         c = int(input('Введите c: '))
         baddata = False
     except ValueError:
-        print('не удалось получить данные')
+        print('не удалось получить данные!!!')
 D = (b * b) - (4 * a * c)
 
 
